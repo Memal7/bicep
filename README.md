@@ -19,6 +19,8 @@ Bicep is a domain-specific language an Azure-native IaC framework for deploying 
 ## Bicep vs. ARM (JSON)
 Behind the scenes, Bicep still operates with ARM and JSON templates. When you submit a Bicep template to Resource Manager, the template going to be converted in JSON template. This propcess is called *transpilation*. But typically the template author doesn't come in touch unless he want to see the JSON template.
 
+![Image_01: Bicep to JSON](./00_images/bicep-to-json.png)
+
 ---
 
 ## Getting-Started
