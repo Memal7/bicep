@@ -23,7 +23,7 @@ Behind the scenes, Bicep still operates with ARM and JSON templates. When you su
 
 ---
 
-## Getting-Started
+## Prerequisites
 ### Download VS Code
 [Download from the VS Code homepage](https://code.visualstudio.com/download)
 
