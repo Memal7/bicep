@@ -4,7 +4,7 @@ Deploy and manage your Azure infrastructures with Azure native IaC framework Bic
 ---
 
 ## What's Bicep?
-Bicep is a domain-specific language an Azure-native IaC framework for deploying and managing Azure infrastructures in automation way, rathar than manually on Azure Portal. Unlike ARM JSON template, Bicep use it's own domain-specific language for provisioning Azure resources which makes a template very simple and human-readable.
+Bicep is a domain-specific language and an Azure-native IaC framework for deploying and managing Azure infrastructures in automation way, rathar than manually on Azure Portal. Unlike ARM JSON template, Bicep use it's own domain-specific language for provisioning Azure resources which makes a template very simple and human-readable.
 
 ---
 
@@ -16,14 +16,15 @@ Bicep is a domain-specific language an Azure-native IaC framework for deploying 
 
 ... and much more.
 
-## Bicep vs. ARM (JSON)
-Behind the scenes, Bicep still operates with ARM and JSON templates. When you submit a Bicep template to Resource Manager, the template going to be converted in JSON template. This propcess is called *transpilation*. But typically the template author doesn't come in touch unless he want to see the JSON template.
+## Bicep template vs. ARM JSON template
+Behind the scenes, Bicep still operates with ARM JSON templates. When you submit a Bicep template to Resource Manager, the template going to be converted in JSON template. This propcess is called *transpilation*. But typically the template author doesn't come in touch with this process unless he wants to see the JSON template.
 
 ![Image_01: Bicep to JSON](./00_images/bicep-to-json.png)
+![Image_02: Bicep template vs ARM JSON template](./00_images/bicep-vs-arm_json.png)
 
 ---
 
-## Prerequisites
+## Pre-requisites
 ### Download VS Code
 [Download from the VS Code homepage](https://code.visualstudio.com/download)
 
